@@ -2,10 +2,8 @@
 
 /**
  * _strlen - Lenght function.
- * @s: The pointer to the string.
- *
+ * @s: The pointer to the string
  * Description: THis fucntion take the lenght of a string.
- *
  * Return: The final lenght of the string.
  */
 int _strlen(char *s)
@@ -23,9 +21,7 @@ int _strlen(char *s)
  * _strcmp - Compare function.
  * @s1: The pointer to the first string.
  * @s2: The pointer to the second string.
- *
  * Description: This function compare two strings.
- *
  * Return: Indication number.
  */
 int _strcmp(char *s1, char *s2)
@@ -48,7 +44,6 @@ int _strcmp(char *s1, char *s2)
 /**
  * _putchar - writes the character c to stdout
  * @c: The character to print
- *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
@@ -61,9 +56,7 @@ int _putchar(char c)
  * *_strcat - main function.
  * @src: The source.
  * @dest: The destination.
- *
  * Description: This function concatenates two strings.
- *
  * Return: The pointer to destination buffer.
  */
 
@@ -93,10 +86,8 @@ char *_strcat(char *dest, char *src)
  * *_strcpy - main function.
  * @src: The source.
  * @dest: The destination.
- *
  * Description: This function copies the string pointed to by src,
  * including the terminating null byte (\0), to the buffer pointed to by dest.
- *
  * Return: The pointer to dest.
  */
 
